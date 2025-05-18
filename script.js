@@ -33,7 +33,7 @@ form.addEventListener('submit', async function (e) {
         //console.log(respuesta);
         //console.log(datos)
 
-        ciudadNombre.textContent = datos.name;
+        ciudadNombre.textContent = datos.name + ' - ' + datos.sys.country;
         temp.textContent = Math.round(datos.main.temp);
         tempMax.textContent = Math.round(datos.main.temp_max);
         tempMin.textContent = Math.round(datos.main.temp_min);
