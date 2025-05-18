@@ -1,18 +1,20 @@
-# 📝 Proyecto: Gestor de Tareas
+# 🌤️ App del Clima
 
-Este es una app para consultar el clima por ciudad. Realiza peticiones GET a la API de OpenWeather para obtener los datos actuales.
----
+Aplicación web construida con HTML, CSS y JavaScript puro que consume la API de OpenWeatherMap para mostrar información del clima de una ciudad.
 
-## ⚙️ Tecnologías utilizadas
+## Funcionalidades
+- Buscar clima por ciudad
+- Mostrar temperatura, clima y un ícono representativo
+- Loading spinner mientras se busca
+- Guarda la última ciudad buscada (localStorage)
 
+## Tecnologías utilizadas
 - HTML5
-- css
-- javascript
+- CSS3
+- JavaScript (Vanilla)
+- API: OpenWeatherMap
 
----
-
-## 🧾 Licencia
-
-Este proyecto es de uso educativo y puede ser adaptado libremente para fines personales o académicos.
-
----
+## Cómo usar
+1. Clona el repositorio
+2. Abre `index.html` en el navegador
+3. Busca una ciudad para ver su clima
