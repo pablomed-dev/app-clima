@@ -46,11 +46,12 @@ form.addEventListener('submit', async function (e) {
         resultado.classList.remove('oculto');
         document.getElementById("loading").classList.add("oculto");
 
-        localStorage.setItem('ultimaCiudad', ciudad)
+        localStorage.setItem('ultimaCiudad', ciudad);
 
     } catch (error) {
         alert("Error: " + error.message)
         resultado.classList.add('oculto');
+        document.getElementById('loading').classList.add('oculto');
     }
 
     form.reset();

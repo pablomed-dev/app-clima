@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body, html {
@@ -27,7 +28,6 @@ header {
 
 main {
     flex: 1;
-    font-family: sans-serif;
     background: linear-gradient(to bottom, #9ed2ff, #ffffff);
     margin: 0;
     padding: 2rem;
